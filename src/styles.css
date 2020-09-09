@@ -1,0 +1,71 @@
+body {
+  font-family: "Muli", sans-serif;
+  max-width: 900px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body-container {
+  width: 500px;
+  display: block;
+  text-align: center;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+.card {
+  display: block;
+  text-align: center;
+  padding-right: -300px;
+}
+
+.card-text-emoji {
+  font-size: 80px;
+}
+
+.search {
+  border-radius: 5px;
+  margin: 10px auto;
+}
+
+.content {
+  border: solid 1px #c5c5c5;
+  border-radius: 5px;
+  max-width: 650px;
+  margin: 20px auto;
+}
+
+.card-body {
+  background-color: #b2dfdb;
+  width: 600px;
+  display: block;
+  text-align: center;
+  left: 550px;
+  border-radius: 5px;
+}
+
+.nextday {
+  background-color: #e0f2f1;
+}
+
+.row {
+  max-width: 600px;
+}
+
+i.fas.fa-cloud-showers-heavy {
+  font-size: 40px;
+  color: #757575;
+}
+
+i.fas.fa-sun {
+  font-size: 40px;
+  color: #757575;
+}
+
+i.fas.fa-cloud-sun-rain {
+  font-size: 40px;
+  color: #757575;
+}

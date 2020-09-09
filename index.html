@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather World</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://kit.fontawesome.com/89fbccdd5c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="src/styles.css" />
+</head>
+
+<body>
+    <div class="content">
+        <div class="container">
+            <div class="set-location">
+                <form id="city-search" class="search">
+                    <div class="row">
+                        <div class="col-10">
+                            <input type="search" id="form-location" placeholder="Find a New Location"
+                                class="form-control" />
+                        </div>
+                        <div class="col-2">
+                            <input type="submit" id="search-button" value="Search" />
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <span id="cityname"> <strong>Berlin</strong>
+                            <h6 class="card-subtitle mb-2 text-muted">Germany</h6>
+                        </span>
+                        <h2> Friday 16:00 </h2>
+                        <h1 class="card-text-emoji"> 😎 </h1>
+                        <p class="suggestion"><br /> <strong>Sunny </strong> <br /> Wear sunglasses today.</p>
+                        <hr />
+                        <p class="temperature-now">
+                            TODAY <span id="temperature-now-c"> <strong>13</strong> </span>
+                            <span class="units"><a href="#" id="celc-temp">°C | <a href="#" id="fahr-temp">°F</a>
+                            </span>
+                            <br /> Max 28° | Min 16°
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="nextday">
+                            <p class="day">Saturday</p>
+                            <i class="fas fa-cloud-sun-rain"></i>
+                            <p class="temp">10° | 17°</p>
+                            <p class="text">
+                                Light Rain </p>
+                            </br>
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="nextdaysunday">
+                            <p class="day">Sunday</p>
+                            <i class="fas fa-sun"></i>
+                            <p class="temp">22° | 28°</p>
+                            <p class="text">
+                                Sunny </p>
+                            </br>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="nextday">
+                            <p class="day">Monday</p>
+                            <i class="fas fa-cloud-showers-heavy"></i>
+                            <p class="temp">13° | 18°</p>
+                            <p class="text">
+                                Rainy </p>
+                            </br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="src/index.js"></script>
+</body>
+
+</html>
